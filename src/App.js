@@ -30,6 +30,7 @@ const App = () => {
                 </Grid>
                 <Grid item md={4}>
                     <Paper className={classes.paper}>
+                        <img style={{height: '200px', width:'200px'}} src={mainLogo} alt="logo"/>
                         <Timer timeLeft={timeLeft} />
                         <FunctionButton timeLeft={timeLeft} setTimeLeft={setTimeLeft} />
                     </Paper>
